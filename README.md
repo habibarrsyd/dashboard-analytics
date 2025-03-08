@@ -1,6 +1,6 @@
 # Bike Sharing - Dashboard Analytics
 
-## Panduan Penggunaan Streamlit - Shell/Terminal
+## Panduan Penggunaan Streamlit di Local - Shell/Terminal
 ```
 git clone https://github.com/habibarrsyd/dashboard-analytics.git
 cd dashboard-analytics
