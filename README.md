@@ -1,21 +1,13 @@
-# dashboard-analytics
-## Panduan Penggunaan
-# Dicoding Collection Dashboard ✨
+# Bike Sharing - Dashboard Analytics
 
-## Setup Environment - Anaconda
+## Panduan Penggunaan Streamlit - Shell/Terminal
 ```
-conda create --name main-ds python=3.9
-conda activate main-ds
+git clone https://github.com/habibarrsyd/dashboard-analytics.git
+cd dashboard-analytics
 pip install -r requirements.txt
-```
-
-## Setup Environment - Shell/Terminal
-```
-mkdir proyek_analisis_data
-cd proyek_analisis_data
 pipenv install
 pipenv shell
-pip install -r requirements.txt
+cd dashboard
 ```
 
 ## Run steamlit app
