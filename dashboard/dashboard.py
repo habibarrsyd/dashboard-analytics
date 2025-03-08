@@ -3,14 +3,14 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
-file_path = os.path.abspath("../data/hour.csv")
-print("Path absolut:", file_path)
-df_hour = pd.read_csv(file_path)
-file1_path = os.path.abspath("../data/day.csv")
+# file_path = os.path.abspath("../data/hour.csv")
+# print("Path absolut:", file_path)
+# df_hour = pd.read_csv(file_path)
+# file1_path = os.path.abspath("../data/day.csv")
 
 # Load dataset (pastikan sudah dimuat sebelumnya)
-# df_hour = pd.read_csv("../data/hour.csv")  # Sesuaikan dengan lokasi dataset
-df_day = pd.read_csv(files1_path)
+df_hour = pd.read_csv("../data/hour.csv")  # Sesuaikan dengan lokasi dataset
+df_day = pd.read_csv("../data/day.csv")
 df_season = df_day[['cnt','season','weekday','workingday','weathersit']]
 st.title('Analisis Data - Bike Sharing Dataset') 
 # Sidebar untuk memilih tampilan
